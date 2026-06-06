@@ -393,21 +393,28 @@ If you use this framework in your research, please cite both the paper and softw
 | ISO 19650-5 | BIM information security | No AI model as distinct asset |
 
 ---
-
-📬 Contact
-
-<p align="center">
-  
-**Ayush Kumar Singh** 
-
-<p align="center"> 
-
-GitHub: [@Ayush-2703](https://github.com/Ayush-2703) 
-LinkedIn: [AYUSH KUMAR SINGH](https://www.linkedin.com/in/ayushsingh2703)
-Email: ab49ayush@gmail.com
-</p>
 ---
 
-<p align="center">
-  <sub> MIT License </sub>
-</p>
+## 📬 Contact
+
+<div align="center">
+
+**Ayush Kumar Singh**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ayush--2703-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayush-2703)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush%20Kumar%20Singh-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushsingh2703)
+[![Email](https://img.shields.io/badge/Email-ab49ayush%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ab49ayush@gmail.com)
+
+</div>
+
+---
+
+## 📄 License
+
+<div align="center">
+
+This project is licensed under the **MIT License**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+</div>
