@@ -394,8 +394,9 @@ If you use this framework in your research, please cite both the paper and softw
 
 ---
 
+📬 Contact
+
 <p align="center">
-  📬 Contact
 **Ayush Kumar Singh**
   
 GitHub: [@Ayush-2703](https://github.com/Ayush-2703) 
