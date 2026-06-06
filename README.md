@@ -395,11 +395,13 @@ If you use this framework in your research, please cite both the paper and softw
 ---
 
 <p align="center">
-<sub>📬 Contact
-**Ayush Kumar Singh** 
+<sub>
+  📬 Contact
+**Ayush Kumar Singh**
+  
 GitHub: [@Ayush-2703](https://github.com/Ayush-2703) 
 LinkedIn: [AYUSH KUMAR SINGH](https://www.linkedin.com/in/ayushsingh2703)
-Email: ab49ayush@gmail.com 
+Email: ab49ayush@gmail.com
 </sub>
 
 ---
