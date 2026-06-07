@@ -393,7 +393,6 @@ If you use this framework in your research, please cite both the paper and softw
 | ISO 19650-5 | BIM information security | No AI model as distinct asset |
 
 ---
----
 
 ## 📬 Contact
 
