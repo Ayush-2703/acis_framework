@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper and the software."
+type: software
+title: "ACIS Framework: Adversarial Construction Intelligence Security"
+version: 1.0.0
+date-released: "2026-03-19"
+url: "https://github.com/Ayush-2703/acis-framework"
+repository-code: "https://github.com/Ayush-2703/acis-framework"
+authors:
+  - family-names: Singh
+    given-names: Ayush Kumar
+    affiliation: "Amity University, Lucknow"
+  - family-names: Yadav
+    given-names: Ankit
+    affiliation: "Amity University, Lucknow"
+  - family-names: Srivastava
+    given-names: Siddhant
+    affiliation: "Amity University, Lucknow"
+  - family-names: Ojha
+    given-names: Devesh
+    affiliation: "Amity University, Lucknow"
+preferred-citation:
+  type: conference-paper
+  title: "Cybersecurity Threats in AI-Driven Construction Systems: A Framework for Adversarial Machine Learning Risks in the Built Environment"
+  authors:
+    - family-names: Yadav
+      given-names: Ankit
+    - family-names: Srivastava
+      given-names: Siddhant
+    - family-names: Singh
+      given-names: Ayush Kumar
+    - family-names: Ojha
+      given-names: Devesh
+  conference:
+    name: "2nd IETE International Conference on Computing Communication & Intelligent Systems (ICCCIS-2026)"
+  year: 2026
+  month: 3
+  institution:
+    name: "Amity University, Lucknow"
