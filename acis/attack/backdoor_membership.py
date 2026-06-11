@@ -5,6 +5,7 @@ BackdoorAttack       — BadNets-style trigger injection during training
 MembershipInferenceAttack — Shadow model attack to infer training membership
 """
 
+
 from __future__ import annotations
 
 from typing import Any, Optional, Tuple
