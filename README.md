@@ -1,7 +1,5 @@
-<p align="center">
 # 🔐 ACIS Framework
 ### Adversarial Construction Intelligence Security
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.11-blue?style=for-the-badge&logo=python" />
