@@ -82,6 +82,8 @@ acis-framework/
 │   └── pages/                   # Threat Scanner · Attacks · Matrix · Defense · FL
 ├── tests/
 │   └── test_acis.py             # 35+ pytest unit tests
+├── Image                        # 12 Image 
+├── Report                       # report and publication certificate
 ├── .github/workflows/ci.yml     # GitHub Actions CI (3 Python versions)
 ├── pyproject.toml               # pip-installable package
 └── CITATION.cff                 # Academic citation metadata
