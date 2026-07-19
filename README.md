@@ -342,7 +342,7 @@ all_  = bench.load_all()          # All four datasets
 
 ## 📄 Paper
 
-> Yadav, A., Srivastava, S., **Singh, A. K.**, & Ojha, D. (2026).
+> A.Yadav, S.Srivastava, A. K. Singh, & D. Ojha (2026).
 > **Cybersecurity Threats in AI-Driven Construction Systems: A Framework for
 > Adversarial Machine Learning Risks in the Built Environment.**
 > *2nd IETE International Conference on Computing Communication & Intelligent
