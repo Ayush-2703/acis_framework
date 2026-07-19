@@ -390,27 +390,33 @@ If you use this framework in your research, please cite both the paper and softw
 | ISO 19650-5 | BIM information security | No AI model as distinct asset |
 
 ---
+## 📜 License
 
-## 📬 Contact
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.  
+You're free to use, fork, and build on this for personal and commercial projects.
+
+---
+## 👤 Author
 
 <div align="center">
 
-**Ayush Kumar Singh**
+### Ayush Kumar Singh
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ayush--2703-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayush-2703)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush%20Kumar%20Singh-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushsingh2703)
-[![Email](https://img.shields.io/badge/Email-ab49ayush%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ab49ayush@gmail.com)
+*Researcher in Adversarial ML, Geospatial AI, and LLM/NLP Systems*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ayush%20Kumar%20Singh-181717?style=for-the-badge&logo=github)](https://github.com/Ayush-2703)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush%20Kumar%20Singh-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ayushsingh2703)
+[![Email](https://img.shields.io/badge/Email-Ayush%20Kumar%20Singh-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ab49ayush@gmail.com)
 
 </div>
 
 ---
 
-## 📄 License
-
 <div align="center">
 
-This project is licensed under the **MIT License**
+**If this repository helped you, please consider giving it a ⭐**  
+*It takes 2 seconds and helps others discover it.*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:022C22,100:059669&height=100&section=footer" width="100%"/>
 
 </div>
