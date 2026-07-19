@@ -1,27 +1,22 @@
-# 🔐 ACIS Framework
-### Adversarial Construction Intelligence Security
+<div align="center">
+ 
+![🔐 ACIS Framework](https://capsule-render.vercel.app/api?type=waving&color=0:022C22,100:059669&height=250&section=header&text=🔐%20ACIS%20Framework&fontSize=55&fontColor=FDE68A&fontAlignY=36&animation=fadeIn&desc=Adversarial%20Construction%20Intelligence%20Security&descSize=15&descAlignY=58)
 
-<p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.11-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?style=for-the-badge&logo=pytorch" />
   <img src="https://img.shields.io/badge/scikit--learn-1.3+-f7931e?style=for-the-badge&logo=scikit-learn" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Paper-ICCCIS--2026-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Streamlit-Dashboard-ff4b4b?style=for-the-badge&logo=streamlit" />
-</p>
 
-<p align="center">
   <b>The first Python implementation of an AI-specific cybersecurity framework for construction.</b><br/>
   Code translation of the peer-reviewed ACIS framework — published at ICCCIS-2026, Amity University Lucknow.
-</p>
 
-<p align="center">
-  <a href="https://acis-framework.streamlit.app"><strong>🚀 Live Demo</strong></a> ·
-  <a href="#installation"><strong>Install</strong></a> ·
-  <a href="#quickstart"><strong>Quickstart</strong></a> ·
-  <a href="#attack-simulations"><strong>Attacks</strong></a> ·
-  <a href="#citing"><strong>Cite</strong></a>
-</p>
+<br/>
+
+**Ayush Kumar Singh** 
+
+</div>
 
 ---
 
