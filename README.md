@@ -9,8 +9,8 @@
   <img src="https://img.shields.io/badge/Paper-ICCCIS--2026-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Streamlit-Dashboard-ff4b4b?style=for-the-badge&logo=streamlit" />
 
-  <b>The first Python implementation of an AI-specific cybersecurity framework for construction.</b><br/>
-  Code translation of the peer-reviewed ACIS framework — published at ICCCIS-2026, Amity University Lucknow.
+The first Python implementation of an AI-specific cybersecurity framework for construction.</b><br/>
+Code translation of the peer-reviewed ACIS framework — published at ICCCIS-2026, Amity University Lucknow.
 
 <br/>
 
