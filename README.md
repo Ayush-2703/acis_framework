@@ -1,6 +1,6 @@
 <div align="center">
  
-![🔐 ACIS Framework](https://capsule-render.vercel.app/api?type=waving&color=0:450A0A,100:DC2626&height=250&section=header&text=🔐%20ACIS%20Framework&fontSize=60&fontColor=67E8F9&fontAlignY=36&animation=fadeIn&desc=Adversarial%20Construction%20Intelligence%20Security&descSize=30&descAlignY=58)
+![🔐 ACIS Framework](https://capsule-render.vercel.app/api?type=waving&color=0:450A0A,100:DC2626&height=250&section=header&text=🔐%20ACIS%20Framework&fontSize=60&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Adversarial%20Construction%20Intelligence%20Security&descSize=30&descAlignY=58)
 
   <img src="https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.11-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?style=for-the-badge&logo=pytorch" />
