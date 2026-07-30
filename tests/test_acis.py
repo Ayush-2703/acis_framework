@@ -5,10 +5,32 @@ pytest unit tests covering core framework, attacks, and defenses.
 Run: pytest tests/ -v --tb=short
 """
 
-import numpy as np
-import pytest
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import make_classification
+# ── Attack tests ──
+from acis.attack.data_poisoning import (
+    LabelFlippingAttack,
+    TargetedPoisonAttack,
+    ConstructionPPEPoison,
+)
+from acis.attack.model_extraction import ModelExtractionAttack
+from acis.attack.backdoor_membership import BackdoorAttack, MembershipInferenceAttack
+
+# ── Defense tests ──
+from acis.defense.defense import (
+    AdversarialTraining,
+    InputPreprocessor,
+    DifferentialPrivacyTrainer,
+    QueryAnomalyDetector,
+    DataProvenanceAuditor,
+)
+
+# ── Dataset tests ──
+from acis.data.datasets import (
+    PPEDataset,
+    BIMSensorDataset,
+    RebarPlacementDataset,
+    ConstructionBenchmark,
+)
+
 
 # ── Shared fixtures ──────────────────────────────────────────────────────────
 
