@@ -163,7 +163,7 @@ fw.print_report(result)
 ### 2 — Run Attack Simulations
 
 ```python
-from acis.attacks  import ConstructionPPEPoison, FGSMAttack, ModelExtractionAttack
+from acis.attack  import ConstructionPPEPoison, FGSMAttack, ModelExtractionAttack
 from acis.data     import ConstructionBenchmark
 from sklearn.ensemble import RandomForestClassifier
 

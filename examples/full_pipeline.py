@@ -14,10 +14,10 @@ from sklearn.ensemble import RandomForestClassifier
 from acis.core.framework import ACISFramework, SystemProfile
 from acis.core.threat_taxonomy import AssetCategory
 from acis.data.datasets import ConstructionBenchmark
-from acis.attacks.data_poisoning import ConstructionPPEPoison, LabelFlippingAttack
-from acis.attacks.model_extraction import ModelExtractionAttack
-from acis.attacks.backdoor_membership import BackdoorAttack, MembershipInferenceAttack
-from acis.defenses.defenses import AdversarialTraining, InputPreprocessor, DifferentialPrivacyTrainer
+from acis.attack.data_poisoning import ConstructionPPEPoison, LabelFlippingAttack
+from acis.attack.model_extraction import ModelExtractionAttack
+from acis.attack.backdoor_membership import BackdoorAttack, MembershipInferenceAttack
+from acis.defense.defense import AdversarialTraining, InputPreprocessor, DifferentialPrivacyTrainer
 from acis.federated.federated import FederatedCoordinator
 
 def section(t): print(f"\n{'='*60}\n  {t}\n{'='*60}")
