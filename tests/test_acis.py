@@ -257,21 +257,21 @@ class TestACISFramework:
 
 class TestAttacks:
     def test_label_flipping(self, simple_data):
-        from acis.attacks.data_poisoning import LabelFlippingAttack
+        from acis.attack.data_poisoning import LabelFlippingAttack
         clf = RandomForestClassifier(n_estimators=10, random_state=42)
         res = LabelFlippingAttack(poison_rate=0.20, verbose=False).run(clf, simple_data)
         assert 0.0 <= res.attack_success_rate <= 1.0
         assert res.original_accuracy > 0.4
 
     def test_targeted_poison(self, simple_data):
-        from acis.attacks.data_poisoning import TargetedPoisonAttack
+        from acis.attack.data_poisoning import TargetedPoisonAttack
         clf = RandomForestClassifier(n_estimators=10, random_state=42)
         res = TargetedPoisonAttack(source_class=0, target_class=1,
                                     poison_rate=0.4, verbose=False).run(clf, simple_data)
         assert 0.0 <= res.attack_success_rate <= 1.0
 
     def test_ppe_poison(self, ppe_dataset):
-        from acis.attacks.data_poisoning import ConstructionPPEPoison
+        from acis.attack.data_poisoning import ConstructionPPEPoison
         clf = RandomForestClassifier(n_estimators=10, random_state=42)
         res = ConstructionPPEPoison(poison_rate=0.30, verbose=False).run(
             clf, ppe_dataset.as_tuple())
@@ -279,20 +279,20 @@ class TestAttacks:
         assert 0 <= res.attack_success_rate <= 1
 
     def test_model_extraction(self, trained_model, simple_data):
-        from acis.attacks.model_extraction import ModelExtractionAttack
+        from acis.attack.model_extraction import ModelExtractionAttack
         res = ModelExtractionAttack(n_queries=100, verbose=False).run(
             trained_model, simple_data)
         assert 0.0 <= res.metadata["fidelity"] <= 1.0
 
     def test_backdoor(self, simple_data):
-        from acis.attacks.backdoor_membership import BackdoorAttack
+        from acis.attack.backdoor_membership import BackdoorAttack
         clf = RandomForestClassifier(n_estimators=10, random_state=42)
         res = BackdoorAttack(verbose=False).run(clf, simple_data)
         assert "backdoor_success_rate" in res.metadata
         assert "stealthiness_score" in res.metadata
 
     def test_membership_inference(self, trained_model, simple_data):
-        from acis.attacks.backdoor_membership import MembershipInferenceAttack
+        from acis.attack.backdoor_membership import MembershipInferenceAttack
         res = MembershipInferenceAttack(n_shadow_models=2, verbose=False).run(
             trained_model, simple_data)
         assert "attack_accuracy" in res.metadata
@@ -303,7 +303,7 @@ class TestAttacks:
 
 class TestDefenses:
     def test_adversarial_training_augments(self, simple_data):
-        from acis.defenses.defenses import AdversarialTraining
+        from acis.defense.defense import AdversarialTraining
         X_tr, y_tr, _, _ = simple_data
         at   = AdversarialTraining(epsilon=0.02)
         X_a, y_a = at.augment(X_tr, y_tr)
@@ -311,7 +311,7 @@ class TestDefenses:
         assert len(X_a) == len(y_a)
 
     def test_input_preprocessor_squeeze(self, simple_data):
-        from acis.defenses.defenses import InputPreprocessor
+        from acis.defense.defense import InputPreprocessor
         X, _, _, _ = simple_data
         pp = InputPreprocessor(squeezing_bits=4)
         X_sq = pp.feature_squeeze(X)
@@ -319,7 +319,7 @@ class TestDefenses:
         assert X_sq.max() <= X.max() + 1e-6
 
     def test_dp_trainer(self, simple_data):
-        from acis.defenses.defenses import DifferentialPrivacyTrainer
+        from acis.defense.defense import DifferentialPrivacyTrainer
         clf = RandomForestClassifier(n_estimators=10, random_state=42)
         X_tr, y_tr, X_te, y_te = simple_data
         dp  = DifferentialPrivacyTrainer(noise_multiplier=0.5)
@@ -328,7 +328,7 @@ class TestDefenses:
         assert len(preds) == len(y_te)
 
     def test_query_anomaly_detector(self):
-        from acis.defenses.defenses import QueryAnomalyDetector
+        from acis.defense.defense import QueryAnomalyDetector
         det = QueryAnomalyDetector(rate_limit_per_minute=5, window_seconds=60)
         rng = np.random.default_rng(42)
         for i in range(10):
@@ -337,7 +337,7 @@ class TestDefenses:
         assert summary["total_alerts_raised"] > 0  # Rate limit should fire
 
     def test_provenance_auditor(self, simple_data):
-        from acis.defenses.defenses import DataProvenanceAuditor
+        from acis.defense.defense import DataProvenanceAuditor
         X_tr, y_tr, _, _ = simple_data
         aud  = DataProvenanceAuditor()
         h    = aud.register_dataset("ds1", X_tr, y_tr, contributor="FirmA")
