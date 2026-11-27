@@ -5,6 +5,11 @@ pytest unit tests covering core framework, attacks, and defenses.
 Run: pytest tests/ -v --tb=short
 """
 
+import numpy as np
+import pytest
+from sklearn.datasets import make_classification
+from sklearn.ensemble import RandomForestClassifier
+
 # ── Attack tests ──
 from acis.attack.data_poisoning import (
     LabelFlippingAttack,
